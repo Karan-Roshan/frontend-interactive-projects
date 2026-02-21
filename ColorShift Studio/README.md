@@ -41,6 +41,7 @@ It features a clean UI, glassmorphism design, gradient color cards, and animated
 ```
 ColorShift-Studio/
 │
+│── Poject Screenshots
 ├── index.html
 ├── styles.css
 ├── script.js
