@@ -36,7 +36,7 @@ It features a clean UI, glassmorphism design, gradient color cards, and animated
 - Google Fonts (Poppins)
 
 
-## 📂Project Structure
+## Project Structure
 
 ```
 ColorShift-Studio/
