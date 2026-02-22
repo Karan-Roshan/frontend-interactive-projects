@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Body Styling */
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* Main Container */
+.container {
+    width: 500px;
+    text-align: center;
+}
+
+
+/* Header Section */
+.header {
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 75px;
+    color: white;
+}
+
+.tagline {
+    font-size: 20px;
+    color: #f0f0f0;
+    margin-top: 5px;
+}
+
+
+/* First Div (Color Box) */
+.color-box {
+    height: 200px;
+    background-color: rgb(113, 112, 112);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.5s ease;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+    margin-bottom: 20px;
+    border: 5px solid rgba(255, 255, 255, 0.475);
+}
+
+.color-box h2 {
+    color: white;
+    font-size: 20px;
+}
+
+
+/* Second Div */
+.content-box {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+
+/* Text */
+.fun-text {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+
+/* Button */
+button {
+    padding: 10px 22px;
+    border: none;
+    border-radius: 8px;
+    background-color: #667eea;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background-color: #5563c1;
+    transform: scale(1.05);
+}
