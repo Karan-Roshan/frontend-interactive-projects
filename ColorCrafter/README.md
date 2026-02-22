@@ -10,7 +10,7 @@ Built using HTML, CSS, and JavaScript, this project demonstrates DOM manipulatio
 <img src="Project Screenshots/Default.png" alt="ColorCrafter Default UI" width="600"/>
 
 ### After Color Change
-<img src="Project Screenshots/#264653.png" alt="Color Change Example" width="600"/>
+<img src="https://github.com/Karan-Roshan/frontend-interactive-projects/blob/716bc9ac70a5bef0ccf6682223126ddd7afc76a9/ColorCrafter/Project%20Screenshots/%236F1D1B.png" alt="Color Change Example" width="600"/>
 
 
 ## Features
