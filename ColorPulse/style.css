@@ -1,0 +1,113 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, #141e30, #243b55);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 900px;
+    height: 450px;
+    background: #ffffff;
+    border-radius: 20px;
+    display: flex;
+    overflow: hidden;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.638);
+    padding: 25px;
+    justify-content: space-between;
+}
+
+/* Left Color Box */
+.color-box {
+    width:40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#colorBox {
+    width:350px;
+    height:350px;
+    background-color:  rgb(173, 168, 168);
+    color: white;
+    transition: background-color 0.5s ease;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.638);
+    border-radius: 100%;
+    border: 5px solid rgba(0, 0, 0, 0.476);
+}
+
+.color-box h2 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+/* Right Control Panel */
+.control-panel {
+    padding: 40px;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.control-panel h1 {
+    font-size: 70px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.control-panel p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+
+button {
+    padding: 12px 28px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+/* Start Button */
+.start {
+    background-color: #00b894;
+    color: white;
+}
+
+.start:hover {
+    background-color: #019875;
+    transform: translateY(-3px);
+}
+
+/* Stop Button */
+.stop {
+    background-color: #d63031;
+    color: white;
+}
+
+.stop:hover {
+    background-color: #b71c1c;
+    transform: translateY(-3px);
+}
