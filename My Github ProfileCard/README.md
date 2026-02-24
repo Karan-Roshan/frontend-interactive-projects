@@ -46,7 +46,10 @@ It retrieves and displays GitHub user information dynamically.
 
 ## Project Preview
 <div align="center">
-   <img src="Project Screenshot/GitHub Profile Card.png" alt="GitHub Profile Card Preview" width="500"/>
+   <img src="Project Screenshot/GitHub Profile Card.png" 
+        alt="GitHub Profile Card Preview" 
+        width="500"
+        style="border: 2px solid white;"/>
 </div>
 
 
