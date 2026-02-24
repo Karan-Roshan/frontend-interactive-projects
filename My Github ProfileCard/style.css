@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0d1117;
+}
+
+.profile-card {
+    width: 320px;
+    background-color: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 16px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(254, 254, 254, 0.6);
+    transition: 0.3s ease;
+}
+
+.profile-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 2px 20px rgba(254, 254, 254, 0.6);
+}
+
+.profile-image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid #238636;
+    margin-bottom: 15px;
+}
+
+.profile-details h2 {
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stat-box {
+    background-color: #21262d;
+    padding: 12px;
+    border-radius: 10px;
+    width: 45%;
+    transition: 0.3s;
+}
+
+.stat-box:hover {
+    background-color: #30363d;
+}
+
+.stat-box h3 {
+    color: #58a6ff;
+    font-size: 22px;
+}
+
+.stat-box p {
+    color: #8b949e;
+    font-size: 13px;
+}
