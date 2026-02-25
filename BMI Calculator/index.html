@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="box">
+
+            <h1>BMI Calculator</h1>
+
+            <div class="content">
+
+                <div class="input">
+                    <label for="height">Height (cm)</label>
+                    <input type="number" id="height" min="50" max="250" step="1">
+                </div>
+
+                <div class="input">
+                    <label for="weight">Weight (kg)</label>
+                    <input type="number" id="weight" min="20" max="300" step="1">
+                </div>
+
+                <button type="submit" id="calculate">Calculate BMI</button>
+
+                <button type="reset" id="reset">Reset</button>
+
+            </div>
+
+            <div class="result">
+                <p>Your BMI is</p>
+                <div id="result">00.00</div>
+                <p id="comment">Enter values to see your result 🙂</p>
+            </div>
+
+            <!-- Floating Help Section -->
+            <div class="help-container">
+                <div class="help-icon">?</div>
+
+                <div class="guide-popup">
+                    <h3>BMI Weight Guide</h3>
+                    <ul class="bmi-guide">
+                        <li><strong>Underweight:</strong> Less than 18.5</li>
+                        <li><strong>Normal weight:</strong> 18.5 – 24.9</li>
+                        <li><strong>Overweight:</strong> 25 – 29.9</li>
+                        <li><strong>Obese:</strong> 30 or greater</li>
+                    </ul>
+                    <br>
+
+                    <h3>Height Conversion</h3>
+                    <ul class="height-conversion">
+                        <li><strong>1 inch</strong> = 2.54 cm</li>
+                        <li>To convert inches to cm → <strong>inches × 2.54</strong></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
