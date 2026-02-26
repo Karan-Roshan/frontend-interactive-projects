@@ -45,7 +45,7 @@ function updateClock(timeEl, dateEl, dayEl, locale, timezone, hour12 = false) {
 
 function startClocks() {
     updateClock(indiaTime, indiaDate, indiaDay, "en-IN", "Asia/Kolkata");
-    updateClock(newYorkTime, newYorkDate, newYorkDay, "en-US", "America/New_York", true);
+    updateClock(newYorkTime, newYorkDate, newYorkDay, "en-US", "America/New_York");
     updateClock(londonTime, londonDate, londonDay, "en-GB", "Europe/London");
     updateClock(tokyoTime, tokyoDate, tokyoDay, "en-JP", "Asia/Tokyo");
 }
