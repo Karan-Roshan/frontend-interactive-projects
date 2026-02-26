@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Poppins:wght@300;400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  height: 100vh;
+  background: linear-gradient(135deg, #1f1c2c, #928dab);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ===== Heading ===== */
+.main-heading {
+  font-size: 75px;
+  font-weight: 700;
+  margin-bottom: 100px;
+  color: #fff;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  animation: glow 2s infinite alternate;
+}
+
+/* @keyframes glow {
+  from {
+    text-shadow: 0 0 10px #000000, 0 0 20px #8f94fb;
+  }
+  to {
+    text-shadow: 0 10 20px #000000, 0 0 40px #4e54c8;
+  }
+} */
+
+
+/* ===== Clock Container ===== */
+.clock-container {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+/* ===== Clock Card ===== */
+.clock-card {
+  width: 300px;
+  padding: 25px;
+  border-radius: 20px;
+  backdrop-filter: blur(15px);
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  color: #fff;
+  transition: 0.4s ease;
+}
+
+.clock-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+}
+
+
+/* City Name */
+.clock-card h2 {
+  margin-bottom: 15px;
+  font-size: 30px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+
+/* Time */
+.time {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+  color: #00f2ff;
+}
+
+
+/* Date */
+.date {
+  font-size: 16px;
+  margin-bottom: 5px;
+  opacity: 0.9;
+}
+
+
+/* Day */
+.day {
+  font-size: 15px;
+  font-weight: 600;
+  color: #ffd700;
+}
+
+
+/* Responsive */
+@media (max-width: 768px) {
+  .clock-card {
+    width: 90%;
+  }
+}
