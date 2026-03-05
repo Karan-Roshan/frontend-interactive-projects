@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>GitHub Profile Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <h1>GitHub Profile Explorer</h1>
+        <div class="search">
+            <input type="text" id="username" placeholder="Enter GitHub username">
+            <button id="searchBtn">Search</button>
+        </div>
+
+        <div class="card" id="profileCard">
+            <div class="left">
+                <img id="avatar" src="">
+            </div>
+
+            <div class="right">
+                <h2 id="githubName"></h2>
+                <p id="githubUsername"></p>
+                
+
+                <div class="stats">
+                    <div>
+                        <span id="repos">0</span>
+                        <p>Repositories</p>
+                    </div>
+
+                    <div>
+                        <span id="followers">0</span>
+                        <p>Followers</p>
+                    </div>
+
+                    <div>
+                        <span id="following">0</span>
+                        <p>Following</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
